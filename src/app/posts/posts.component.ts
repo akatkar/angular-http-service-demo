@@ -19,7 +19,7 @@ export class PostsComponent implements OnInit {
         this.posts = response;
         console.log(this.posts);
       }, error => {
-        alert('An unexpected error occured');
+        alert('An unexpected error occurred');
       });
   }
 
@@ -49,7 +49,7 @@ export class PostsComponent implements OnInit {
         },
         error => {
 
-          console.log('Rrror', error);
+          console.log('Error', error);
 
         });
   }
